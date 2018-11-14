@@ -1,5 +1,13 @@
 # Git Cheatsheet
 
+-[Overview of commands](#overview-of-commands)
+-[Add and commit a file](#add-and-commit-a-file)
+-[Viewing or undoing changes](#viewing-or-undoing-changes)
+-[Branching and merging](#branching-and-merging)
+-[Interaction with remote repo](#interaction-with-remote-repo)
+-[Creating a repo](#creating-a-repo)
+-[Git configuration](#git-configuration)
+
 # Overview of commands
 * `add` adds file contents to the staging area
 * `commit` records a snapshot of the staging area
@@ -37,7 +45,7 @@ git checkout -- filename (undoes your changes)
 ```
 All these commands are acting on your local version of repo.
 
-# Viewing/undoing changes
+# Viewing or undoing changes
 To view status of files in working directory and staging area:
 ```
 git status
@@ -79,7 +87,7 @@ git checkout master
 git merge branchname
 ```
 
-# Interaction w/ remote repo
+# Interaction with remote repo
 To fetch the most recent updates from the remote repo into your local repo, and put them into your working directory:
 ```
 git pull origin master
